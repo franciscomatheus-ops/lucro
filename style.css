@@ -1,0 +1,27 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    box-shadow: 3px 6px 10px;
+    gap: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+
+}
+input{
+    outline: none;
+}
+body, html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+

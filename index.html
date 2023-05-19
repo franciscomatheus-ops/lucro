@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lucros cripto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./config.js"></script>
+</head>
+<body>
+    <div class="box">
+        <div>
+            <fieldset>
+                <legend>COMPRA</legend>
+                <div>
+                    <input id="compra" type="text" placeholder="Valor compra R$">
+                </div>
+                <div>
+                    <input id="valor" type="text" placeholder="Valor Moeda">
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>LUCRO ESTIMADO</legend>
+                <input type="text" id="lucro" placeholder="Lucroj Estimado R$" onblur="cauculo()">
+                <table>
+                    <tr>
+                        <td>Valor Venda R$</td>
+                        <td id="venda">0,00</td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>
